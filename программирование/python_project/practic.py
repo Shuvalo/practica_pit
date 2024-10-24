@@ -27,7 +27,7 @@ def change_blue():
 def change_indigo():
     color_code_entry.delete(0, END)
     color_code_entry.insert(0, "#7d00ff")
-    color_label.config(text="Фиолетовый")
+    
 
 root = Tk()
 
