@@ -32,7 +32,7 @@ def change_indigo():
 root = Tk()
 
 color_label = Label(root, text="", font=("Arial", 12))
-color_label.pack()
+
 
 color_code_entry = Entry(root, justify=CENTER)
 color_code_entry.pack()
